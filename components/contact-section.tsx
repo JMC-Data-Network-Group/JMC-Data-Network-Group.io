@@ -1,6 +1,6 @@
 import { ArrowUpRight, MessageCircle } from 'lucide-react'
 
-export const CONTACT_EMAIL = 'contacto@jmcdata.com'
+export const CONTACT_EMAIL = 'contacto@jmcdatanetworkgroup.com'
 
 export function ContactSection() {
   const subject = encodeURIComponent('Consulta sobre servicios de JMC Data & Network Group')

@@ -17,7 +17,7 @@ export function AboutSection() {
             Tecnología clara. <span>Información útil.</span>
           </h2>
           <p className="about-description">
-            En JMC Data &amp; Network Group acompañamos a las empresas en el ordenamiento y uso de su
+            En JMC Data &amp; Network Group acompañamos a las empresas en la organización y uso de su
             información. Integramos almacenamiento, reportes y conectividad tecnológica en
             soluciones pensadas alrededor de cada necesidad.
           </p>

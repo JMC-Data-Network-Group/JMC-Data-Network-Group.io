@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   applicationName: 'JMC Data & Network Group',
   generator: 'Next.js',
   icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JMC%20-%20EDITABLE_Mesa%20de%20trabajo%201%20copia%2017-6jL67J70uTOnxl7B7BWkgoQCSfxRSE.png',
+    icon: '/JMC - LOGO 1.png',
     apple:
       'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JMC%20-%20EDITABLE_Mesa%20de%20trabajo%201%20copia%2017-6jL67J70uTOnxl7B7BWkgoQCSfxRSE.png',
   },

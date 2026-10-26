@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
 export const LOGO_ICON_URL =
-  'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JMC%20-%20EDITABLE_Mesa%20de%20trabajo%201%20copia%2017-6jL67J70uTOnxl7B7BWkgoQCSfxRSE.png'
+  '/JMC - LOGO 1.png'
 
-export const LOGO_FULL_URL =
-  'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JMC%20-%20EDITABLE_Mesa%20de%20trabajo%201%20copia%2016-0WMFl3iiMXGYQBY89GXr4fMHFmMcXw.png'
+// Aquí colocas la ruta de tu imagen local dentro de public
+export const LOGO_FULL_URL = '/JMC - LOGO 2.png'
 
 export function BrandLockup({ compact = false }: { compact?: boolean }) {
   return (
@@ -41,6 +41,7 @@ export function FullLogoArtwork() {
       src={LOGO_FULL_URL}
       unoptimized
       width={540}
+      style={{ mixBlendMode: 'screen' }} // Esto hace que el negro del PNG se vuelva transparente
     />
   )
 }
