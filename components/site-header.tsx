@@ -8,6 +8,7 @@ const navigationLinks = [
   { href: '#nosotros', label: 'Nosotros' },
   { href: '#servicios', label: 'Servicios' },
   { href: '#enfoque', label: 'Nuestro enfoque' },
+  { href: '#demo', label: 'Demo' },
 ]
 
 export function SiteHeader() {
