@@ -41,80 +41,35 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div
-          aria-label="Ilustración conceptual del flujo de datos desde las fuentes hasta los reportes"
-          className="hero-visual"
-          role="img"
-        >
-          <div className="hero-visual-glow" />
-          <div className="hero-data-card">
-            <div className="hero-card-header">
-              <div className="hero-card-brand">
-                <span className="hero-card-mark">
-                  <Image
-                    alt=""
-                    height={64}
-                    priority
-                    src={LOGO_ICON_URL}
-                    unoptimized
-                    width={64}
-                  />
-                </span>
-                <span>
-                  <strong>JMC / DATA HUB</strong>
-                  <small>GESTIÓN DE INFORMACIÓN</small>
-                </span>
-              </div>
-              <span className="model-tag">VISTA ILUSTRATIVA</span>
+        <div className="hero-video-wrapper">
+          <div className="hero-video-header">
+            <div className="hero-video-brand">
             </div>
 
-            <div className="hero-card-intro">
-              <p>UN FLUJO MÁS CLARO</p>
-              <h2>De cada fuente, una visión útil.</h2>
-            </div>
-
-            <div aria-hidden="true" className="data-flow">
-              {flowSteps.map((step, index) => {
-                const Icon = step.icon
-                return (
-                  <div className="data-flow-group" key={step.label}>
-                    <div className="data-flow-step">
-                      <span className="data-flow-icon">
-                        <Icon />
-                      </span>
-                      <span className="data-flow-label">{step.label}</span>
-                    </div>
-                    {index < flowSteps.length - 1 && <span className="data-flow-connector" />}
-                  </div>
-                )
-              })}
-            </div>
-
-            <div className="hero-report-panel">
-              <div className="hero-report-copy">
-                <span className="report-overline">INFORMACIÓN ORGANIZADA</span>
-                <strong>Reportes a tu medida</strong>
-                <span>Una lectura más sencilla de lo que importa.</span>
-              </div>
-              <div aria-hidden="true" className="report-bars">
-                <i />
-                <i />
-                <i />
-                <i />
-                <i />
-                <i />
-                <i />
-              </div>
-            </div>
           </div>
 
-          <div aria-hidden="true" className="floating-note floating-note--top">
-            <span className="floating-note-icon"><Network /></span>
-            <span><strong>Fuentes conectadas</strong><small>Información en contexto</small></span>
+          <div className="hero-video-frame">
+            <video
+              className="hero-video"
+              controls
+              playsInline
+              preload="metadata"
+            >
+              <source src="/videos/presentacion.mp4" type="video/mp4" />
+              Tu navegador no soporta videos HTML5.
+            </video>
           </div>
-          <div aria-hidden="true" className="floating-note floating-note--bottom">
-            <span className="floating-note-indicator" />
-            <span><strong>Claridad para avanzar</strong></span>
+
+          <div className="hero-video-footer">
+            <div>
+              <strong>Tecnología que impulsa resultados</strong>
+              <span>Conectamos datos, infraestructura e innovación.</span>
+            </div>
+
+            <span className="hero-video-status">
+      <span />
+      VIDEO CORPORATIVO
+    </span>
           </div>
         </div>
       </div>
