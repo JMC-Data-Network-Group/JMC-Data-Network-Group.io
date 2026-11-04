@@ -22,8 +22,13 @@ export function ProcessSection() {
       <div className="site-shell">
         <div className="process-heading">
           <p className="section-eyebrow">NUESTRO ENFOQUE</p>
-          <h2 id="process-title">Un proceso claro, <span>de principio a fin.</span></h2>
-          <p>Trabajamos paso a paso para que cada decisión tecnológica tenga un propósito.</p>
+          <h2 id="process-title">Un proceso<br/> claro, <span>de principio a fin.</span></h2>
+          {/*aumentar el tamaño y mas espacio arriba y que se quede en una sola linea*/}
+          <p
+            className="section-intro"
+            style={{ fontSize: '1.125rem', marginTop: '0.2rem', maxWidth: '700px' }}
+          >
+            Trabajamos paso a paso para que cada decisión tecnológica tenga un propósito.</p>
         </div>
 
         <ol className="process-grid">

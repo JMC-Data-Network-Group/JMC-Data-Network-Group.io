@@ -5,8 +5,8 @@ import { useState } from 'react'
 import { BrandLockup } from './brand-lockup'
 
 const navigationLinks = [
-  { href: '#nosotros', label: 'Nosotros' },
   { href: '#servicios', label: 'Servicios' },
+  { href: '#nosotros', label: 'Nosotros' },
   { href: '#enfoque', label: 'Nuestro enfoque' },
   { href: '#demo', label: 'Demo' },
 ]

@@ -96,10 +96,10 @@ export function CocotaiReport() {
         >
           <div className="demo-report-header">
             <Image
-              alt="Logotipo COCOTAI"
+              alt="Logotipo de JMC"
               className="demo-logo"
               height={64}
-              src="/demo/cocotai-logo.png"
+              src="/JMC - LOGO 2.png"
               unoptimized
               width={64}
             />
