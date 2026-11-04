@@ -240,9 +240,13 @@ button {
   gap: 0.7rem;
   margin: 0 0 1.25rem;
   color: var(--brand-blue);
-  font-size: 0.7rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  /*font-size: 0.7rem;*/
   letter-spacing: 0.19em;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  /*font-weight: 400;*/
+  font-style: normal;
 }
 
 .hero-eyebrow {
@@ -648,7 +652,7 @@ button {
 
 .services-section {
   padding: clamp(5rem, 8vw, 7.2rem) 0;
-  background: #f5f7fa;
+  background: #dce7f5;
 }
 
 .section-heading {
@@ -664,7 +668,7 @@ button {
 }
 
 .section-eyebrow {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 .section-heading h2,
@@ -766,7 +770,7 @@ button {
 .service-description {
   margin: 0.75rem 0 2rem;
   color: #687586;
-  font-size: 0.83rem;
+  font-size: 0.93rem;
   line-height: 1.65;
 }
 
@@ -982,7 +986,7 @@ button {
 
 .process-section {
   padding: clamp(5rem, 8vw, 7.1rem) 0;
-  background: #fff;
+  background: #dce7f5;
 }
 
 .process-heading {
@@ -1009,7 +1013,7 @@ button {
 .process-grid {
   display: grid;
   gap: 0;
-  margin: 0;
+  margin: 9rem 0 0;
   padding: 0;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   list-style: none;
@@ -1049,7 +1053,7 @@ button {
   place-items: center;
   border: 1px solid #cfe3fb;
   border-radius: 14px;
-  background: #f0f7ff;
+  background: #ffffff;
   color: #087bff;
   font-size: 0.73rem;
   font-weight: 800;
@@ -1059,7 +1063,7 @@ button {
 .process-step-copy h3 {
   margin: 0.25rem 0 0.65rem;
   color: #101c2b;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.03em;
 }
@@ -1068,13 +1072,13 @@ button {
   max-width: 260px;
   margin: 0;
   color: #6b7787;
-  font-size: 0.85rem;
+  font-size: 0.99rem;
   line-height: 1.7;
 }
 
 .contact-section {
   padding: 0 0 clamp(5rem, 8vw, 7rem);
-  background: #fff;
+  background: #dce7f5;
 }
 
 .contact-card {
