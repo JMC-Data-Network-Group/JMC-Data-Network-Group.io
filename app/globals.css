@@ -2405,7 +2405,7 @@ button {
 .chat-widget {
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 80px; /* Más arriba */
   z-index: 9999;
   font-family: Arial, Helvetica, sans-serif;
 }
