@@ -22,6 +22,16 @@ Compilación de producción
 pnpm build
 pnpm start
 ```
+
+Construir la imagen de Docker:
+```
+docker build -t jmc-web .
+```
+
+Ejecutar el contenedor:
+```
+docker run -d --name jmc-web-app --restart unless-stopped -p 3000:3000 jmc-web
+```
 `pnpm start` sirve la versión generada por `pnpm build`.
 Estructura principal
 ```text
