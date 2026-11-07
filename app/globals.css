@@ -264,14 +264,15 @@ button {
   position: relative;
   display: grid;
   align-items: center;
-  gap: clamp(2.5rem, 6vw, 5.5rem);
-  grid-template-columns: minmax(0, 1.02fr) minmax(420px, 0.98fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  /* Damos más proporción (1.2fr) a la columna derecha donde está el video */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
 }
 
 .hero-video-wrapper {
   position: relative;
-  width: calc(100% + 220px);
-  max-width: none;
+  width: 100%;
+  max-width: 100%;
   padding: 1rem;
   border: 1px solid rgb(190 210 235 / 14%);
   border-radius: 24px;
