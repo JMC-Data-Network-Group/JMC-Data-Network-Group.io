@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ['100.86.209.57'],
   output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
